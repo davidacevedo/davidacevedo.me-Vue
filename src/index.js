@@ -1,10 +1,7 @@
-// import Vue from 'vue';
-
-Vue.component('todo-item', {
-  template: '<li>This is a todo</li>'
-})
-
+import Vue from 'vue';
+import App from 'components/App.vue';
 
 const app = new Vue({
   el: '#root',
+  render: h => h(App),
 });

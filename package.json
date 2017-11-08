@@ -18,7 +18,18 @@
   },
   "homepage": "https://github.com/davidacevedo/davidacevedo.me-Vue#readme",
   "dependencies": {
-    "vue": "^2.5.2",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "cross-env": "^5.1.1",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.5",
+    "node-sass": "^4.6.0",
+    "sass-loader": "^6.0.6",
+    "vue": "^2.5.3",
+    "vue-loader": "^13.4.0",
+    "vue-template-compiler": "^2.5.3",
     "webpack": "^3.8.1"
   },
   "devDependencies": {
