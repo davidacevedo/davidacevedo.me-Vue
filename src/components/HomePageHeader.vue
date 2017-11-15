@@ -1,6 +1,7 @@
 <template>
   <div class="header">
     <div class="imgContainer">
+      <!-- Need this image compresed and scaled down -->
       <img src="../assets/deerdavid.jpg" />
     </div>
     <h1>Hello, my name is David</h1>
@@ -37,11 +38,13 @@ export default {
   h1 {
     box-shadow: 0 1px 5px rgba(black, 0.2);
     margin-top: 10px;
+    padding: 5px 15px;
   }
 
   h2 {
     box-shadow: 0 1px 5px rgba(black, 0.2);
     margin-top: 10px;
+    padding: 5px 15px;
   }
 </style>
 

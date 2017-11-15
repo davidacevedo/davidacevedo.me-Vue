@@ -1,17 +1,16 @@
 <template>
   <div class="home">
     <home-page-header />
+    <home-page-details />
   </div>
 </template>
 
 <script>
-import HomePageHeader from './HomePageHeader';
+import HomePageHeader from 'components/HomePageHeader';
+import HomePageDetails from 'components/HomePageDetails';
 
 export default {
-  components: { HomePageHeader },
-  mounted: () => {
-    console.log('mounted');
-  }
+  components: { HomePageHeader, HomePageDetails },
 }
 </script>
 
